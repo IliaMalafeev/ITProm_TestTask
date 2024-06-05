@@ -1,0 +1,22 @@
+.item_update_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item_update_form_fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item_update_form_field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.item_update_form_btn {
+    align-self: center;
+    margin-top: 15px;
+}

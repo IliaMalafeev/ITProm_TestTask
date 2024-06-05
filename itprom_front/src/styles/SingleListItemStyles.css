@@ -1,0 +1,19 @@
+.single_list_item_card {
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single_list_item_card_info {
+    display: flex;
+    gap: 20px;
+    font-size: large;
+}
+
+.single_list_item_card_btns {
+    display: flex;
+    gap: 10px;
+}

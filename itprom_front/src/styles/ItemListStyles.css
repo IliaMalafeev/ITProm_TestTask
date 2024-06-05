@@ -1,0 +1,30 @@
+.item_list_block {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item_list_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tgroup-list-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tgroup-list-enter-active, .tgroup-list-leave-active {
+    transition: all 0.4s ease;
+}
+
+.tgroup-list-enter-from, .tgroup-list-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.tgroup-list-move {
+    transition: transform 0.5s ease;
+}
