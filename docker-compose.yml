@@ -1,0 +1,25 @@
+services:
+  
+  itprom-springboot-backend:
+    build: ./itprom_back
+    image: itprom-backend-image
+    container_name: itprom-springboot-backend-container
+    ports:
+      - "8080:8080"
+    networks:
+      - itprom-network
+  
+  itprom-vue-frontend:
+    build: ./itprom_front
+    image: itprom-frontend-image
+    container_name: itprom-vue-frontend-container
+    ports:
+      - "8081:8081"
+    networks:
+      - itprom-network
+    depends_on:
+      - itprom-springboot-backend
+
+networks:
+  itprom-network:
+    driver: bridge
