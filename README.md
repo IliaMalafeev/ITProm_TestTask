@@ -10,6 +10,6 @@
 Project should start up in 3-4 minutes and be available 
 at `http://localhost:8081/` in your preferred browser.
 
-**Swagger Doc** should be available at `http://localhost:8080/swagger-ui/index.html`.
+**Swagger Docs** should be available at `http://localhost:8080/swagger-ui/index.html`.
 
 Thank you!
